@@ -13,13 +13,13 @@
 <body bgcolor="black">
   
   <nav class="purple darken-4 accent-3" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><img src="./static/logo.svg"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -29,9 +29,9 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center red-text">Medical Cost Prediction</h1>
+      <h1 class="header center red-text">Insurance Premium Prediction</h1>
       <div class="row center">
-        <h4 class="header col s12 light white-text">Predict the cost for your Medical Insurance!
+        <h4 class="header col s12 light white-text" id="typing-text">
         <br>
         </h4>
       </div>
@@ -110,7 +110,7 @@
           <ul>
             <li><a class="white-text" href="https://github.com/mdtariqueh007">1. 2021ITB099 Md Tarique Hussain</a></li>
             <li><a class="white-text" href="https://github.com/swap019">2. 2021ITB100 Swapnanil Sanyal</a></li>
-            <li><a class="white-text" href="#">3. 2021ITB101 Divyanshu Poddar</a></li>
+            <li><a class="white-text" href="https://github.com/Divyanshu239">3. 2021ITB101 Divyanshu Poddar</a></li>
             <li><a class="white-text" href="https://github.com/soumizde">4. 2021ITB102 Soumi De</a></li>
             <li><a class="white-text" href="https://github.com/akakhtar">5. 2021ITB103 Atif Akhtar </a></li>
           </ul>
@@ -124,6 +124,20 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="../static/js/materialize.js"></script>
+  <script>
+    const text = "Predict the cost for your Medical Insurance!";
+    let index = 0;
+  
+    function typeWriter() {
+      if (index < text.length) {
+        document.getElementById("typing-text").innerHTML += text.charAt(index);
+        index++;
+        setTimeout(typeWriter, 100); // Adjust typing speed here
+      }
+    }
+  
+    typeWriter();
+  </script>
 
   </body>
 </html>
