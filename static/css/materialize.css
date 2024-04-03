@@ -88,7 +88,7 @@
 }
 
 .red-text {
-  color: #86e2f9 !important;
+  color: #26a69a !important;
 }
 
 .red.lighten-5 {
@@ -308,7 +308,7 @@
 }
 
 .purple {
-  background-color: #9c27b0 !important;
+  background-color: #26a69a !important;
 }
 
 .purple-text {
@@ -404,7 +404,7 @@
 }
 
 .purple.accent-3 {
-  background-color: #d500f9 !important;
+  background-color: #26a69a !important;
 }
 
 .purple-text.text-accent-3 {
@@ -796,7 +796,7 @@
 }
 
 .light-blue.lighten-1 {
-  background-color: #29b6f6 !important;
+  background-color: #26a69a !important;
 }
 
 .light-blue-text.text-lighten-1 {
@@ -5253,7 +5253,7 @@ small {
 .btn, .btn-large, .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #86e2f9;
+  background-color: #26a69a;
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: background-color .2s ease-out;
