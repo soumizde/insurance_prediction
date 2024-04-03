@@ -8,7 +8,7 @@
 }
 
 .materialize-red-text {
-  color: #58c9ee !important;
+  color: #26a69a !important;
 }
 
 .materialize-red.lighten-5 {
@@ -4438,6 +4438,7 @@ nav .input-field input {
   font-size: 1.2rem;
   border: none;
   padding-left: 2rem;
+  color: #ADD8E6 ;
 }
 
 nav .input-field input:focus, nav .input-field input[type=text]:valid, nav .input-field input[type=password]:valid, nav .input-field input[type=email]:valid, nav .input-field input[type=url]:valid, nav .input-field input[type=date]:valid {
@@ -5252,7 +5253,7 @@ small {
 .btn, .btn-large, .btn-small {
   text-decoration: none;
   color: #fff;
-  background-color: #26a69a;
+  background-color: #86e2f9;
   text-align: center;
   letter-spacing: .5px;
   -webkit-transition: background-color .2s ease-out;
