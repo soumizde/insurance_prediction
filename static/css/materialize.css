@@ -74,7 +74,6 @@
 .materialize-red-text.text-darken-3 {
   color: #a21318 !important;
 }
-
 .materialize-red.darken-4 {
   background-color: #8b1014 !important;
 }
@@ -740,8 +739,9 @@
 }
 
 .blue.accent-3 {
-  background-color: #2979FF !important;
+  background-color: #26a69a !important;
 }
+
 
 .blue-text.text-accent-3 {
   color: #2979FF !important;
